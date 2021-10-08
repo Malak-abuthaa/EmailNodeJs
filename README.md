@@ -1,14 +1,14 @@
-bout the Project 
+<h1>About the Project </h1>
 This is a simple app that sends users emails and gets reports of users how have an email sent to 
 
-before running the app
+<h1>before running the app</h1>
 
-1- make sure to run npm install 
+1- make sure to run<b> npm install </b>
 
 2- create a MongoDB account, add the link to the .env file 
 
 
-libraries that been used 
+<h1>libraries that been used </h1>
 
 1- nodemailer
 
@@ -17,16 +17,17 @@ libraries that been used
 3- express
 
 
-How to test the API
+<h1>How to test the API</h1>
 
-to get the users email report
+to get the users email report <br/>
 GET: https://email-project-node-js.herokuapp.com/users/get-emails-report
-
-to send email 
+</br><br/>
+to send email<br/> 
 POST: https://email-project-node-js.herokuapp.com/users/send-hello-email
-JSON -> 
-{
-"email":"User@gmail.com",
+<br/><br/>
+JSON -> <br/>
+{<br/>
+"email":"User@gmail.com",<br/>
 "user":"User"
-
+<br/>
 }
